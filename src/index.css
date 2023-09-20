@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background: whitesmoke;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background: #5567e9;
+  right: 0;
+  bottom: -5px;
+  color: #5567e9;
+}
+
+/* icon {
+  cursor: pointer;
+} */
+
+/* card {
+  background: #000;
+} */
