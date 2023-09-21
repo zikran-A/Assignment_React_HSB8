@@ -28,10 +28,10 @@ li:hover::before {
   color: #5567e9;
 }
 
-icon {
+.icon {
   cursor: pointer;
 }
 
-/* card {
-  background: #000;
-} */
+.card {
+  background: pink;
+}
