@@ -13,6 +13,21 @@ const Navbar = () => {
         <li className="menuList text-textColor hover:text-secondaryBlue">
           Jobs
         </li>
+        <li className="menuList text-textColor hover:text-secondaryBlue">
+          Companies
+        </li>
+        <li className="menuList text-textColor hover:text-secondaryBlue">
+          About
+        </li>
+        <li className="menuList text-textColor hover:text-secondaryBlue">
+          Contact
+        </li>
+        <li className="menuList text-textColor hover:text-secondaryBlue">
+          Login
+        </li>
+        <li className="menuList text-textColor hover:text-secondaryBlue">
+          Register
+        </li>
       </div>
     </div>
   );
