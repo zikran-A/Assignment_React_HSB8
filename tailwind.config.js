@@ -7,7 +7,7 @@ export default {
         primaryBlue: "#192690",
         secondaryBlue: "#3272BD",
         thirdBlue: "#89B1E6",
-        cardShadow: "#292424",
+        shadowColor: "#292424",
         textColor: "#100F0F",
       },
     },
