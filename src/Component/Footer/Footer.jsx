@@ -2,22 +2,22 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer p-2 mb-4 bg-primaryBlue rounded-md gap-2 grid grid-cols-5 m-auto items-center justify-center">
+    <div className="footer p-2 mb-4 bg-primaryBlue rounded-md gap-2 grid lg:grid-cols-5 m-auto items-center justify-center">
       <div>
-        <div className="logoDiv">
+        <div className="logoDiv mx-4">
           <h1 className="logo text-[25px] text-white pb-[1.5rem]">
             <strong>Job</strong>Los
           </h1>
         </div>
-        <p className="text-white pb-[13px] opacity-70 leading-7">
+        <p className="text-white pb-[13px] pl-4 font-medium">
           Kami selalu menyediakan yang terbaik bagi para pencari kerja maupun
           penyedia kerja, temukan pekerjaan terbaik, dan kandidat terbaik di
           sini.
         </p>
       </div>
 
-      <div className="grid">
-        <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
+      <div className="grid p-4">
+        <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white text-start">
           Company
         </span>
         <div className="grid gap-2">
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid">
+      <div className="grid p-4">
         <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
           Resources
         </span>
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid">
+      <div className="grid p-4">
         <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
           Support
         </span>
@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid">
+      <div className="grid p-4">
         <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
           Contact Info
         </span>
@@ -83,15 +83,15 @@ const Footer = () => {
 
           <div className="icons flex gap-4 py-[1rem]">
             <img
-              src=""
+              src="src/Component/Assets/fb.svg"
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
             <img
-              src=""
+              src="src/Component/Assets/tw.svg"
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
             <img
-              src=""
+              src="src/Component/Assets/ig.svg"
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
           </div>

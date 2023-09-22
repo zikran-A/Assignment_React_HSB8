@@ -84,13 +84,12 @@ const Job = () => {
             <div
               key={id}
               className="group group/item singleJob w-[250px] p-[20px] bg-white rounded-md  hover:bg-secondaryBlue shadow-md hover:shadow-lg shadow-shadowColor">
-              <span className="flex justify-between items-center gap-3">
-                <h1 className="text-5rem font-semibold text-textColor group-hover:text-white">
+              <span className="flex justify-between items-left gap-3">
+                <h1 className="text-[1rem] font-semibold text-textColor group-hover:text-white">
                   {title}
                 </h1>
-                <span className="flex item-center text-[#ccc] gap-1">
-                  <i className="ri-time-line"></i>
-                  {time}
+                <span className="flex item-right  text-[#ccc] gap-1">
+                  <i className="ri-time-line text-[12px] flex">{time}</i>
                 </span>
               </span>
               <h6 className="text-[#ccc]">{location}</h6>
@@ -104,7 +103,7 @@ const Job = () => {
                 </span>
               </div>
 
-              <button className="border-[2px] rounded-lg block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">
+              <button className="border-[2px] rounded-lg block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-primaryBlue">
                 Apply Now
               </button>
             </div>
