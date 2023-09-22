@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <div className="footer p-2 mb-4 bg-primaryBlue rounded-md gap-2 grid lg:grid-cols-5 m-auto items-center justify-center">
@@ -83,15 +81,15 @@ const Footer = () => {
 
           <div className="icons flex gap-4 py-[1rem]">
             <img
-              src="src/Component/Assets/fb.svg"
+              src="/src/Component/Assets/fb.svg"
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
             <img
-              src="src/Component/Assets/tw.svg"
+              src="/src/Component/Assets/tw.svg"
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
             <img
-              src="src/Component/Assets/ig.svg"
+              src="/src/Component/Assets/ig.svg"
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
           </div>

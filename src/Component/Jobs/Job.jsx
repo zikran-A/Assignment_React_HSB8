@@ -1,9 +1,7 @@
-import React from "react";
-
 const Data = [
   {
     id: 1,
-    image: "src/Component/Assets/icon1.svg",
+    image: "/src/Component/Assets/icon1.svg",
     title: "Web Developer",
     time: "Now",
     location: "Jakarta",
@@ -12,7 +10,7 @@ const Data = [
   },
   {
     id: 2,
-    image: "src/Component/Assets/icon2.svg",
+    image: "/src/Component/Assets/icon2.svg",
     title: "Frontend Engineer",
     time: "Now",
     location: "Jakarta",
@@ -21,7 +19,7 @@ const Data = [
   },
   {
     id: 3,
-    image: "src/Component/Assets/icon3.svg",
+    image: "/src/Component/Assets/icon3.svg",
     title: "Backend Engineer",
     time: "Now",
     location: "Jakarta",
@@ -30,7 +28,7 @@ const Data = [
   },
   {
     id: 4,
-    image: "src/Component/Assets/icon4.svg",
+    image: "/src/Component/Assets/icon4.svg",
     title: "Dev Ops",
     time: "15 Min Ago",
     location: "Jakarta",
@@ -39,7 +37,7 @@ const Data = [
   },
   {
     id: 5,
-    image: "src/Component/Assets/icon5.svg",
+    image: "/src/Component/Assets/icon5.svg",
     title: "Fullstack Web Developer",
     time: "30 Min Ago",
     location: "Jakarta",
@@ -48,7 +46,7 @@ const Data = [
   },
   {
     id: 6,
-    image: "src/Component/Assets/icon6.svg",
+    image: "/src/Component/Assets/icon6.svg",
     title: "Mobile Developer",
     time: "1 Hour Ago",
     location: "Jakarta",
@@ -57,7 +55,7 @@ const Data = [
   },
   {
     id: 7,
-    image: "src/Component/Assets/icon7.svg",
+    image: "/src/Component/Assets/icon7.svg",
     title: "Data Analyst",
     time: "3 Hour Ago",
     location: "Jakarta",
@@ -66,7 +64,7 @@ const Data = [
   },
   {
     id: 8,
-    image: "src/Component/Assets/icon8.svg",
+    image: "/src/Component/Assets/icon8.svg",
     title: "Junior Programmer",
     time: "2 Hour Ago",
     location: "Jakarta",
