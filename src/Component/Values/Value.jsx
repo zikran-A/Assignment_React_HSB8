@@ -1,4 +1,7 @@
 import React from "react";
+import simply from "/src/Component/Assets/simply.svg";
+import love from "/src/Component/Assets/love.svg";
+import idea from "/src/Component/Assets/idea.svg";
 
 const Value = () => {
   return (
@@ -11,11 +14,7 @@ const Value = () => {
         <div className="singleGrid rounded-md hover:bg-[#eeedf7] p-[1.5rem]">
           <div className="flex items-center gap-3">
             <div className="imgDiv p-[4px] rounded-sm bg-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
-              <img
-                src="src/Component/Assets/simply.svg"
-                alt=""
-                className="w-[70%]"
-              />
+              <img src={simply} alt="" className="w-[70%]" />
             </div>
 
             <span className="font-semibold text-textColor text-[18px]">
@@ -31,11 +30,7 @@ const Value = () => {
         <div className="singleGrid rounded-md hover:bg-[#eeedf7] p-[1.5rem]">
           <div className="flex items-center gap-3">
             <div className="imgDiv p-[4px] rounded-sm bg-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
-              <img
-                src="src/Component/Assets/love.svg"
-                alt=""
-                className="w-[70%]"
-              />
+              <img src={love} alt="" className="w-[70%]" />
             </div>
 
             <span className="font-semibold text-textColor text-[18px]">
@@ -51,11 +46,7 @@ const Value = () => {
         <div className="singleGrid rounded-md hover:bg-[#eeedf7] p-[1.5rem]">
           <div className="flex items-center gap-3">
             <div className="imgDiv p-[4px] rounded-sm bg-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
-              <img
-                src="src/Component/Assets/idea.svg"
-                alt=""
-                className="w-[70%]"
-              />
+              <img src={idea} alt="" className="w-[70%]" />
             </div>
 
             <span className="font-semibold text-textColor text-[18px]">
@@ -69,7 +60,7 @@ const Value = () => {
         </div>
       </div>
 
-      <div className="mt-[2rem] flex justify-start mx-4 p-4 bg-[url('src/Component/Assets/hs.png')] bg-cover rounded-md">
+      <div className="mt-[2rem] flex justify-start mx-4 p-4 bg-[url('/src/Component/Assets/hs.png')] bg-cover rounded-md">
         <div>
           <h1 className="text-primaryBlue text-[2rem] font-bold backdrop-blur-sm">
             Siap untuk Switch Career?
