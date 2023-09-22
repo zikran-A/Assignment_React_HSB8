@@ -1,3 +1,7 @@
+import fb from "/src/Component/Assets/fb.svg";
+import tw from "/src/Component/Assets/tw.svg";
+import ig from "/src/Component/Assets/ig.svg";
+
 const Footer = () => {
   return (
     <div className="footer p-2 mb-4 bg-primaryBlue rounded-md gap-2 grid lg:grid-cols-5 m-auto items-center justify-center">
@@ -81,15 +85,15 @@ const Footer = () => {
 
           <div className="icons flex gap-4 py-[1rem]">
             <img
-              src="/src/Component/Assets/fb.svg"
+              src={fb}
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
             <img
-              src="/src/Component/Assets/tw.svg"
+              src={tw}
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
             <img
-              src="/src/Component/Assets/ig.svg"
+              src={ig}
               className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-secondaryBlue"
             />
           </div>
