@@ -1,7 +1,16 @@
+import icon1 from "/src/Component/Assets/icon1.svg";
+import icon2 from "/src/Component/Assets/icon2.svg";
+import icon3 from "/src/Component/Assets/icon3.svg";
+import icon4 from "/src/Component/Assets/icon4.svg";
+import icon5 from "/src/Component/Assets/icon5.svg";
+import icon6 from "/src/Component/Assets/icon6.svg";
+import icon7 from "/src/Component/Assets/icon7.svg";
+import icon8 from "/src/Component/Assets/icon8.svg";
+
 const Data = [
   {
     id: 1,
-    image: "/src/Component/Assets/icon1.svg",
+    image: icon1,
     title: "Web Developer",
     time: "Now",
     location: "Jakarta",
@@ -10,7 +19,7 @@ const Data = [
   },
   {
     id: 2,
-    image: "/src/Component/Assets/icon2.svg",
+    image: icon2,
     title: "Frontend Engineer",
     time: "Now",
     location: "Jakarta",
@@ -19,7 +28,7 @@ const Data = [
   },
   {
     id: 3,
-    image: "/src/Component/Assets/icon3.svg",
+    image: icon3,
     title: "Backend Engineer",
     time: "Now",
     location: "Jakarta",
@@ -28,7 +37,7 @@ const Data = [
   },
   {
     id: 4,
-    image: "/src/Component/Assets/icon4.svg",
+    image: icon4,
     title: "Dev Ops",
     time: "15 Min Ago",
     location: "Jakarta",
@@ -37,7 +46,7 @@ const Data = [
   },
   {
     id: 5,
-    image: "/src/Component/Assets/icon5.svg",
+    image: icon5,
     title: "Fullstack Web Developer",
     time: "30 Min Ago",
     location: "Jakarta",
@@ -46,7 +55,7 @@ const Data = [
   },
   {
     id: 6,
-    image: "/src/Component/Assets/icon6.svg",
+    image: icon6,
     title: "Mobile Developer",
     time: "1 Hour Ago",
     location: "Jakarta",
@@ -55,7 +64,7 @@ const Data = [
   },
   {
     id: 7,
-    image: "/src/Component/Assets/icon7.svg",
+    image: icon7,
     title: "Data Analyst",
     time: "3 Hour Ago",
     location: "Jakarta",
@@ -64,7 +73,7 @@ const Data = [
   },
   {
     id: 8,
-    image: "/src/Component/Assets/icon8.svg",
+    image: icon8,
     title: "Junior Programmer",
     time: "2 Hour Ago",
     location: "Jakarta",
